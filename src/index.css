@@ -50,3 +50,13 @@
   -webkit-backdrop-filter: blur(20px);
   border: 1px solid rgba(75, 85, 99, 0.3);
 }
+
+/* Hide scrollbar but keep scrolling */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}

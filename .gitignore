@@ -1,0 +1,59 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+ENV/
+env/
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+*.bak
+*.swp
+*.tmp
+*.orig
+
+# Test coverage
+coverage/
+*.cover
+*.coverage
+
+# Production files
+*.min.js
+*.min.css
+
+# Others
+*.secret
